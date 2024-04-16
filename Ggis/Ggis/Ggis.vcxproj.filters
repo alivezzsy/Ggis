@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{9a2521f3-b7a6-4503-a2c9-12bfb1c7f7e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Widget">
+      <UniqueIdentifier>{1f8c06c5-b4e4-4691-8c2f-e8df6212b967}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\geo">
+      <UniqueIdentifier>{2b145242-a132-463c-bc01-d59f164046db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utilities">
+      <UniqueIdentifier>{aa4a9262-aca1-49ac-9cbb-faf1c4c8f4af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\geo\map">
+      <UniqueIdentifier>{a2026d78-7a4a-450b-b1cf-eb84670c2ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\geo\raster">
+      <UniqueIdentifier>{3f8f06e5-be5e-4a10-bd9a-a4f39ce9d8ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\geo\geofeature">
+      <UniqueIdentifier>{2a12cb41-262e-42f2-9369-6a08ecf49d17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\opengl">
+      <UniqueIdentifier>{aa270e29-80e5-438e-9090-105f19f44b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\geo\index">
+      <UniqueIdentifier>{e53b11ef-2203-41d2-bf94-a8b4adddaf61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Dialog">
+      <UniqueIdentifier>{0e0a9a4f-6ac2-496b-848f-746cc5178c80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\operation">
+      <UniqueIdentifier>{fc8452c7-4b56-4bb5-9310-304486d3f384}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\geo\geofeature\GeoLineString.cpp">
+      <Filter>src\geo\geofeature</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geo\geofeature\geometry.cpp">
+      <Filter>src\geo\geofeature</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geo\geofeature\GeoPoint.cpp">
+      <Filter>src\geo\geofeature</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ggis.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utilities\geo_math.cpp">
+      <Filter>src\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utilities\utility.cpp">
+      <Filter>src\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widget\openglwidget.cpp">
+      <Filter>src\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geo\geofeature\GeoLinearRing.cpp">
+      <Filter>src\geo\geofeature</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geo\geofeature\GeoPolygon.cpp">
+      <Filter>src\geo\geofeature</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geo\geofeature\GeoGeometryCollection.cpp">
+      <Filter>src\geo\geofeature</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geo\geofeature\GeoMultiPoint.cpp">
+      <Filter>src\geo\geofeature</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geo\geofeature\GeoMultiLineString.cpp">
+      <Filter>src\geo\geofeature</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geo\geofeature\GeoMultiPolygon.cpp">
+      <Filter>src\geo\geofeature</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geo\geofeature\GeoFieldType.h">
+      <Filter>src\geo\geofeature</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geo\geofeature\GeoFeature.cpp">
+      <Filter>src\geo\geofeature</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opengl\shader.cpp">
+      <Filter>src\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opengl\glcall.cpp">
+      <Filter>src\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opengl\indexbuffer.cpp">
+      <Filter>src\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opengl\vertexbuffer.cpp">
+      <Filter>src\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opengl\vertexarray.cpp">
+      <Filter>src\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opengl\openglfeaturedescriptor.cpp">
+      <Filter>src\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geo\map\geoFeatureLayer.cpp">
+      <Filter>src\geo\map</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geo\map\geoFeatureLayerProperty.cpp">
+      <Filter>src\geo\map</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geo\index\gridIndex.cpp">
+      <Filter>src\geo\index</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opengl\renderer.cpp">
+      <Filter>src\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utilities\env.cpp">
+      <Filter>src\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geo\map\geomap.cpp">
+      <Filter>src\geo\map</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utilities\fileReader.cpp">
+      <Filter>src\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utilities\geo_convert.cpp">
+      <Filter>src\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widget\LayersTreeWidget.cpp">
+      <Filter>src\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Dialog\ViewLogDialog.cpp">
+      <Filter>src\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widget\LayersTreeWidgetItem.cpp">
+      <Filter>src\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utilities\appEvent.cpp">
+      <Filter>src\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\operation\operation.cpp">
+      <Filter>src\operation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\operation\operationlist.cpp">
+      <Filter>src\operation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Dialog\layerAttributeTableDialog.cpp">
+      <Filter>src\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Dialog\layerStyleDialog.cpp">
+      <Filter>src\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widget\StatusBar.cpp">
+      <Filter>src\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widget\ToolsBar.cpp">
+      <Filter>src\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widget\colorBlockWidget.cpp">
+      <Filter>src\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Dialog\WhatThisIsDialog.cpp">
+      <Filter>src\Dialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\Ggis.h">
+      <Filter>src</Filter>
+    </QtMoc>
+    <QtMoc Include="src\Widget\openglwidget.h">
+      <Filter>src\Widget</Filter>
+    </QtMoc>
+    <QtMoc Include="src\Dialog\ViewLogDialog.h">
+      <Filter>src\Dialog</Filter>
+    </QtMoc>
+    <QtMoc Include="src\Widget\LayersTreeWidget.h">
+      <Filter>src\Widget</Filter>
+    </QtMoc>
+    <QtMoc Include="src\utilities\appEvent.h">
+      <Filter>src\utilities</Filter>
+    </QtMoc>
+    <QtMoc Include="src\operation\operation.h">
+      <Filter>src\operation</Filter>
+    </QtMoc>
+    <QtMoc Include="src\Dialog\layerAttributeTableDialog.h">
+      <Filter>src\Dialog</Filter>
+    </QtMoc>
+    <QtMoc Include="src\Widget\StatusBar.h">
+      <Filter>src\Widget</Filter>
+    </QtMoc>
+    <QtMoc Include="src\Widget\ToolsBar.h">
+      <Filter>src\Widget</Filter>
+    </QtMoc>
+    <QtMoc Include="src\Dialog\layerStyleDialog.h">
+      <Filter>src\Dialog</Filter>
+    </QtMoc>
+    <QtMoc Include="src\Widget\colorBlockWidget.h">
+      <Filter>src\Widget</Filter>
+    </QtMoc>
+    <QtMoc Include="src\Dialog\WhatThisIsDialog.h">
+      <Filter>src\Dialog</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\geo\geofeature\geometry.h">
+      <Filter>src\geo\geofeature</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utilities\geo_math.h">
+      <Filter>src\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utilities\utility.h">
+      <Filter>src\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\geo\geo_base.hpp">
+      <Filter>src\geo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\geo\geofeature\GeoFeature.h">
+      <Filter>src\geo\geofeature</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\shader.h">
+      <Filter>src\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\glcall.h">
+      <Filter>src\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utilities\logger.h">
+      <Filter>src\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\indexbuffer.h">
+      <Filter>src\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\vertexbuffer.h">
+      <Filter>src\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\vertexarray.h">
+      <Filter>src\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\vertexbufferlayout.h">
+      <Filter>src\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\openglfeaturedescriptor.h">
+      <Filter>src\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\geo\map\geolayer.h">
+      <Filter>src\geo\map</Filter>
+    </ClInclude>
+    <ClInclude Include="src\geo\map\geoFeatureLayerProperty.h">
+      <Filter>src\geo\map</Filter>
+    </ClInclude>
+    <ClInclude Include="src\geo\index\grid.h">
+      <Filter>src\geo\index</Filter>
+    </ClInclude>
+    <ClInclude Include="src\geo\index\gridIndex.h">
+      <Filter>src\geo\index</Filter>
+    </ClInclude>
+    <ClInclude Include="src\geo\index\SpatialIndex.h">
+      <Filter>src\geo\index</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utilities\env.h">
+      <Filter>src\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\renderer.h">
+      <Filter>src\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\geo\map\geomap.h">
+      <Filter>src\geo\map</Filter>
+    </ClInclude>
+    <ClInclude Include="src\geo\map\geomapproperty.h">
+      <Filter>src\geo\map</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utilities\fileReader.h">
+      <Filter>src\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utilities\geo_convert.h">
+      <Filter>src\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Widget\LayersTreeWidgetItem.h">
+      <Filter>src\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="src\operation\operationlist.h">
+      <Filter>src\operation</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

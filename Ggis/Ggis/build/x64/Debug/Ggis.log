@@ -1,0 +1,70 @@
+﻿  layerAttributeTableDialog.cpp
+  layerStyleDialog.cpp
+  ViewLogDialog.cpp
+  WhatThisIsDialog.cpp
+  GeoFeature.cpp
+  GeoFieldType.h
+  GeoGeometryCollection.cpp
+  GeoLinearRing.cpp
+  GeoLineString.cpp
+  geometry.cpp
+  GeoMultiLineString.cpp
+  GeoMultiPoint.cpp
+  GeoMultiPolygon.cpp
+  GeoPoint.cpp
+  GeoPolygon.cpp
+  gridIndex.cpp
+  geoFeatureLayer.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2372): warning C4996: 'std::copy::_Unchecked_iterators::_Deprecate': Call to 'std::copy' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators' (编译源文件 src\geo\geofeature\GeoPolygon.cpp)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2372): note: 参见“std::copy::_Unchecked_iterators::_Deprecate”的声明 (编译源文件 src\geo\geofeature\GeoPolygon.cpp)
+  src\geo\geofeature\GeoPolygon.cpp(46): note: 参见对正在编译的函数 模板 实例化“_OutIt *std::copy<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<GeoRawPoint>>>,GeoRawPoint*>(_InIt,_InIt,_OutIt)”的引用
+          with
+          [
+              _OutIt=GeoRawPoint *,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<GeoRawPoint>>>
+          ] (编译源文件 src\geo\geofeature\GeoPolygon.cpp)
+  geoFeatureLayerProperty.cpp
+  geomap.cpp
+  Ggis.cpp
+  main.cpp
+  glcall.cpp
+  indexbuffer.cpp
+  openglfeaturedescriptor.cpp
+  renderer.cpp
+  shader.cpp
+  vertexarray.cpp
+src\opengl\vertexarray.cpp(28): warning C4312: “类型转换”: 从“unsigned int”转换到更大的“const char *” (编译源文件 src\opengl\vertexarray.cpp)
+c:\users\181212\desktop\文件解密\新建文件夹\ggis\ggis\src\opengl\vertexbufferlayout.h(21): warning C4715: “VertexBufferElement::GetSizeOfType”: 不是所有的控件路径都返回值
+  vertexbuffer.cpp
+  operation.cpp
+  operationlist.cpp
+  appEvent.cpp
+  env.cpp
+  fileReader.cpp
+  geo_convert.cpp
+  geo_math.cpp
+  utility.cpp
+  colorBlockWidget.cpp
+  LayersTreeWidget.cpp
+  LayersTreeWidgetItem.cpp
+  openglwidget.cpp
+  StatusBar.cpp
+  ToolsBar.cpp
+c:\users\181212\desktop\文件解密\新建文件夹\ggis\ggis\src\opengl\vertexbufferlayout.h(21): warning C4715: “VertexBufferElement::GetSizeOfType”: 不是所有的控件路径都返回值
+  moc_ToolsBar.cpp
+  moc_StatusBar.cpp
+  moc_appEvent.cpp
+  moc_operation.cpp
+  moc_layerAttributeTableDialog.cpp
+  moc_layerStyleDialog.cpp
+  moc_WhatThisIsDialog.cpp
+  moc_colorBlockWidget.cpp
+  moc_ViewLogDialog.cpp
+  moc_LayersTreeWidget.cpp
+  moc_openglwidget.cpp
+  moc_Ggis.cpp
+    正在创建库 C:\Users\181212\Desktop\文件解密\新建文件夹\Ggis\Ggis\bin\x64\Debug\Ggis.lib 和对象 C:\Users\181212\Desktop\文件解密\新建文件夹\Ggis\Ggis\bin\x64\Debug\Ggis.exp
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+glew32s.lib(glew.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“glew32s.lib(glew.obj)”或在“C:\Users\181212\Desktop\文件解密\新建文件夹\Ggis\Ggis\bin\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  Ggis.vcxproj -> C:\Users\181212\Desktop\文件解密\新建文件夹\Ggis\Ggis\bin\x64\Debug\Ggis.exe
+  Ggis.vcxproj -> C:\Users\181212\Desktop\文件解密\新建文件夹\Ggis\Ggis\bin\x64\Debug\Ggis.pdb (Full PDB)
